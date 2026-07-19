@@ -1,36 +1,194 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 AI Mock Interviews
 
-## Getting Started
+An AI-powered mock interview platform that helps users practice technical and HR interviews through an interactive, real-time interview experience. The application generates interview questions, records user responses, and provides AI-driven feedback to help improve interview performance.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔐 Secure user authentication
+- 🤖 AI-generated interview questions
+- 💬 Technical and HR interview modes
+- 🎤 Voice recording for interview responses
+- 📝 AI-based feedback and evaluation
+- 📊 Performance tracking
+- 📱 Responsive and modern UI
+- ⚡ Fast and optimized user experience
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Shadcn/UI
+
+### Backend
+- Next.js API Routes
+- Drizzle ORM
+
+### Database
+- PostgreSQL
+- Neon Database
+
+### Authentication
+- Clerk
+
+### AI Integration
+- Google Gemini API
+
+### Other Tools
+- Vapi AI
+- React Hook Form
+- Zod
+- Lucide React
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+components/
+constants/
+hooks/
+lib/
+public/
+types/
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/hitakshi13/ai_mock_interviews.git
+```
+
+### Navigate into the project
+
+```bash
+cd ai_mock_interviews
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Configure environment variables
+
+Create a `.env.local` file in the root directory and add your credentials.
+
+Example:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+DATABASE_URL=
+
+GOOGLE_API_KEY=
+
+NEXT_PUBLIC_VAPI_PUBLIC_KEY=
+VAPI_PRIVATE_KEY=
+```
+
+### Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. Sign in using Clerk Authentication.
+2. Choose or create a mock interview.
+3. AI generates interview questions.
+4. Answer questions using your microphone.
+5. AI analyzes your responses.
+6. Receive detailed feedback and performance insights.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+Add screenshots of:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Home Page
+- Dashboard
+- Interview Session
+- AI Feedback
+- Performance Report
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📌 Future Improvements
+
+- Video interview support
+- Resume-based personalized interviews
+- Company-specific interview preparation
+- Coding interview mode
+- Interview history and analytics
+- Leaderboards
+- Export interview reports as PDF
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+**Hitakshi Kharag**
+
+- GitHub: https://github.com/hitakshi13
+- LinkedIn: https://www.linkedin.com/in/hitakshikharag/
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
